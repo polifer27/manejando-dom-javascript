@@ -6,7 +6,6 @@ let cantidadCanciones = prompt("Cuantas canciones vas a agregar? ");
 
 const nombre_lista = document.getElementById('nombre-lista');
 
-//const canciones = document.getElementById('titulo-cancion');
 nombre_lista.innerHTML = `<h2>Nombre de la Lista: ${nombrePlayList}</h2>
                           <p class="cantidad-canciones">Cantidad de canciones: ${cantidadCanciones}</p>
                           `;
@@ -31,35 +30,23 @@ for(let i = 0; i < cantidadCanciones; i++){
     j++;
     canciones[i] = nombreCancion;
     console.log(canciones[i]);
-    //cancion = document.getElementById('cancion');
-    //bloque = document.getElementsById('lista-reproduccion');
+    
     bloque = document.querySelector('#lista-reproduccion');
-    /*contenido = document.getElementById('cancion');*/
+    
     let text = `
         <article class='cancion'>
             
             <h3 id='titulo_cancion'>Canción n°${j}: ${nombreCancion}</h3>
 
-            
-            
         </article>
         <div class='linea'> 
             </div>`;
        
     bloque.insertAdjacentHTML('beforeEnd', text);
-           
-    
-    
 }
 
 
-//let text = '<p>hola perinola</p>';    
 
-//bloque = document.getElementsByClassName('lista-reproduccion');
-//let subject = document.querySelector('#lista-reproduccion');
- //     subject.insertAdjacentHTML('afterEnd', '<p>hola perinola</p>');
-//console.log(canciones[0]);
-/*let i = 0;*/
 
 
 
