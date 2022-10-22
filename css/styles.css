@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: blueviolet;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+.header-hijo{
+    align-items: center;
+    justify-content: center;
+}
+.cancion{
+    width: 100%;
+}
+.linea{
+    height: 4px;
+    background-color: black;
+    width: 100%;
+}
+.main{
+    background-color: rgb(122, 17, 220);
+    
+}
+.container{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+/*.boton{
+    background-color: rgb(13, 0, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+
+}*/
+/*.cancion{
+    padding: 15px;
+
+}*/
+#titulo_cancion{
+    padding: 15px;
+    text-align: center;
+}
+.cantidad-canciones{
+    text-align: center;
+}
